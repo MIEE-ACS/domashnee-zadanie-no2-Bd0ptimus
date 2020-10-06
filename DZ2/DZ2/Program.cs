@@ -99,12 +99,12 @@ namespace DZ2
         {
             Console.WriteLine("Bui The Zung - UTS22 - Question 2");
             double r , a =0, b=0, c=0;
-            bool checkValid = false;
-            
-            //In Question 2 - the range of figure from -10 -> 8 and the center of circumference is(0;0)
-            //       => the Radius of circumference have to be 0<R<8. Because if R>8, the limit of circumference in X-axis will exceed the range of figure
-            
-            //Condition for the input value R : - Have to be a number (0<R<8)
+            bool checkValid = false; //checkValid=false When R>=3 ;   checkValid=true  When R<3
+
+        //In Question 2 - the range of figure from -10 -> 8 and the center of circumference is(0;0)
+        //       => the Radius of circumference have to be 0<R<8. Because if R>8, the limit of circumference in X-axis will exceed the range of figure
+
+        //Condition for the input value R : - Have to be a number (0<R<8)
         inputProcess:
             try
             {
