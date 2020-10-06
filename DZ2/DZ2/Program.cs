@@ -150,8 +150,8 @@ namespace DZ2
                 checkValid = false;
             }
             //When R < 3 : The firgure will be :
-            //  -10 -> -8   ||   -8 -> -3   ||   -3 -> a  ||    a -> b    ||   b->3   ||  b -> c  ||  c->8
-            //     y=-3     || y=0.6*x+1.8  ||  Unknown   ||  x^2+y^2=R^2 ||  Unknown ||   y=x-3  ||  y=3
+            //  -10 -> -8   ||   -8 -> -3   ||   -3 -> a  ||    a -> b    ||   b->3   ||  3 -> c(c=5)  ||  5->8
+            //     y=-3     || y=0.6*x+1.8  ||  Unknown   ||  x^2+y^2=R^2 ||  Unknown ||     y=x-3     ||  y=3
             else if (r < 3)
             {
                 a = -r;
